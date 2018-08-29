@@ -1,0 +1,12 @@
+
+ .LeftFrame {
+	position: absolute;
+	top:2px; left: 2px;
+	border:2px solid #a000ff;
+	margin:10px;
+	width:50%;
+	height:560px;
+	background:url(../../images/bg11.jpg) no-repeat;
+	text-align:left;
+ }
+ 

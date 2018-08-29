@@ -1,0 +1,4 @@
+div.GameOver { 
+	position:absolute; 
+	z-index: 99; 
+}
