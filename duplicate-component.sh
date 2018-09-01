@@ -1,6 +1,7 @@
 #!/bin/sh
 
-taget="$1"
+target="$1"
+cd src/components/
 cp TetrisStage/ $target -rf
 cd $target
 mv TetrisStage.css $target.css

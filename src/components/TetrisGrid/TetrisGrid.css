@@ -7,9 +7,3 @@
 	z-index: 10;
  }
  
- .TetrisGrid div {
-	margin:0px;		padding:0px;
-	width:28px;		height:28px;
-	position:absolute;
-	background:url(../../images/tetris.gif) no-repeat;
-}

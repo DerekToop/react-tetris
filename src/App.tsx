@@ -13,10 +13,10 @@ class App extends React.Component {
 
           <div className="rightfrm">
             <div id="nextBlock" />
-            <p className="plaintxt">
+            <div className="plaintxt">
               Level:  <span id="speed" className="label">1</span>&nbsp;&nbsp;&nbsp;
               Scores: <span id="score" className="label">0</span>
-            </p>
+            </div>
             <button id="startBtn" className="frmButton" >Start</button>
             <button id="testBtn" className="frmButton" >Test</button>
             <button id="stopBtn" className="frmButton" >Stop</button>
@@ -28,22 +28,22 @@ class App extends React.Component {
               </div>
 
               <div className="tab-content  show" id="tc1"><br />
-                <p id="cfgView">
+                <div id="cfgView">
                   Background   <select id="bgSelect" /> <br /> <br />
                   Block Type   &nbsp;&nbsp;<select id="iconSelect" /> <br /> <br />
                   Speed Level  <select id="speedSelect" />
                   <div id="imgBlockIcon" />
-                </p>
+                </div>
               </div>
               <div className="tab-content  hide" id="tc2">
-                <p id="aboutView">
+                <div id="aboutView">
                   <br/>
                   <span><b><br/><br/>
                   Just for FUN!!!<br/><br/>
                   Enjoy Yourself!<br/><br/>
                   <br/><br/><br/>
                   </b></span>
-                </p>
+                </div>
               </div>
             </div>
             
