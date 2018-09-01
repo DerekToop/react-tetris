@@ -54,7 +54,7 @@ class BlockShape extends React.Component<IBlockShapeProps, IBlockShapeState> {
 				{
           blocks.push(<BlockUnit key={`${i}-${j}`} 
                 top={blockTop} left={blockLeft} 
-                width={this.state.width as number} 
+                width={this.blockWidth} 
                 icon={this.state.icon as number}
                 color={this.state.color as number}
               />);
