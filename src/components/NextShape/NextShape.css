@@ -1,0 +1,11 @@
+.NextShape { 
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index: 55;
+ }
+ .NextShape div {
+	position:absolute;
+	width:28px;		height:28px;
+	background:url(../../images/tetris.gif) no-repeat;
+}

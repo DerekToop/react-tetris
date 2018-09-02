@@ -1,4 +1,6 @@
 class Core {
+    public static readonly DefaultIconId = 0;
+
     public static readonly Shapes = [
         ["0xf000", "0x4444", "0xf000", "0x4444"],	//  Bar: (H, V, H, V)
         ["0x6c00", "0x4620", "0x6c00", "0x4620"],   // Z: (H, V, H, V)

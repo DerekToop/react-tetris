@@ -122,13 +122,6 @@ html body { width:100%;
 
  #imgBlockIcon { background:url(./images/tetris.gif) center; margin-left:15px; }
  
-   	#nextBlock div {
-		margin:0px;		padding:0px;
-		width:28px;		height:28px;
-		position:absolute;
-		float:left;
-		background:url(./images/tetris.gif) no-repeat;
-	}
 
 
 

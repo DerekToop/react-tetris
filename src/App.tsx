@@ -3,6 +3,7 @@ import                 './App.css';
 
 import LeftFrame from './components/LeftFrame/LeftFrame';
 import logo        from './logo.svg';
+import NextShape from './components/NextShape/NextShape';
 
 class App extends React.Component {
   public render() {
@@ -12,7 +13,9 @@ class App extends React.Component {
           <LeftFrame />
 
           <div className="rightfrm">
-            <div id="nextBlock" />
+            <div id="nextBlock">
+              <NextShape />
+            </div>
             <div className="plaintxt">
               Level:  <span id="speed" className="label">1</span>&nbsp;&nbsp;&nbsp;
               Scores: <span id="score" className="label">0</span>
