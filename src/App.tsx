@@ -4,8 +4,27 @@ import                 './App.css';
 import LeftFrame from './components/LeftFrame/LeftFrame';
 import logo        from './logo.svg';
 import NextShape from './components/NextShape/NextShape';
+import PowerButton from './components/PowerButton/PowerButton';
 
-class App extends React.Component {
+interface IAppProps {
+
+}
+
+interface IAppState {
+  isPlaying: boolean;
+}
+
+class App extends React.Component<IAppProps, IAppState> {
+  constructor(props: IAppProps, state: IAppState) {
+    super(props, state);
+    this.state = {
+      isPlaying: false,
+    };
+  }
+  toggleStart = () => {
+    var isPlaying = !this.state.isPlaying;
+    this.setState({ isPlaying: isPlaying });
+  }
   public render() {
     return (
       <div className="App">
@@ -20,9 +39,12 @@ class App extends React.Component {
               Level:  <span id="speed" className="label">1</span>&nbsp;&nbsp;&nbsp;
               Scores: <span id="score" className="label">0</span>
             </div>
-            <button id="startBtn" className="frmButton" >Start</button>
-            <button id="testBtn" className="frmButton" >Test</button>
-            <button id="stopBtn" className="frmButton" >Stop</button>
+            
+            <div>
+              <span onClick={this.toggleStart}>
+                <PowerButton isPlaying={this.state.isPlaying} />
+              </span>
+            </div>
 
             <div className='tab-box'>
               <div id="tab-nav" className="tab-nav">
