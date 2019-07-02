@@ -4,8 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts-ts": "2.17.0"
+    "react-dom": "^16.4.2"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -19,6 +18,7 @@
     "@types/react": "^16.4.12",
     "@types/react-dom": "^16.0.7",
     "node-sass": "^4.9.3",
+    "react-scripts-ts": "^2.17.0",
     "react-scripts-ts-scss": "^2.8.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
