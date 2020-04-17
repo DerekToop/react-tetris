@@ -9,7 +9,7 @@
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
     "mem": "^6.1.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "serialize-javascript": "^3.0.0",
