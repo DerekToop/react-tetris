@@ -3,8 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "acorn": "^7.1.1",
+    "handlebars": "^4.7.6",
+    "kind-of": "^6.0.3",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
+    "mem": "^6.1.0",
+    "minimist": "^1.2.5",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "serialize-javascript": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
