@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "acorn": "^7.1.1",
+    "acorn": "^5.7.4",
     "handlebars": "^4.7.6",
     "kind-of": "^6.0.3",
     "lodash": "^4.17.15",
